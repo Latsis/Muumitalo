@@ -1,2 +1,2 @@
-export FLASK_APP=muumitalo.pyc
+export FLASK_APP=muumitalo.py
 python -m flask run
