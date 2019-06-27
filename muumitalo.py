@@ -11,7 +11,7 @@ app = Flask(__name__)
 def portaat():
     data = {
             'Muumi'  : 'Muumimamma',
-            'answer': "Muumipappa has gone crazy. He is blocking the door and won't let anyone inside unless you guess his favourite song right. I know it is Löikö mörkö sisään? but I guess after he watched all those hacker movies he modified the spelling somehow. Go there and bombard him with answers until he lets you in! He is located at localhost:5000/ovi/"
+            'answer': "Muumipappa has gone crazy. He is blocking the door and won't let anyone inside unless you guess his favourite song. I know it's that one hockey song he's been playing non stop but I guess after he watched all those hacker movies he modified the spelling somehow. Go there and bombard him with answers until he lets you in! He is located at localhost:5000/ovi/"
             }
     js = json.dumps(data)
         
@@ -27,7 +27,7 @@ def ovi():
         if 'lOiK0m0rkos1saan' in dataDict['answer']:
             data = {
             'Muumi'  : 'MuumiPappa',
-            'answer' : 'Wonderful! Come in and taste some of my lOiK0m0rkos1saan'
+            'answer' : 'Wonderful! Come in and listen to these awesome tunes with me!
             }
             js = json.dumps(data)
             print request.data        
@@ -45,7 +45,7 @@ def ovi():
     else:
         data = {
             'Muumi'  : 'MuumiPappa',
-            'answer' : 'What is the haczor name for my favourite song?'
+            'answer' : 'What is the haxxor name of my favourite song?'
            }
         js = json.dumps(data)
         

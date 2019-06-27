@@ -19,7 +19,7 @@ Server is hosted at ```localhost:5000 ```
 
 You find Muumipappa at the endpoint ```localhost:5000/ovi/```. You have to answer his question correctly in order to get to Muumitalo. The answering is done by sending a POST request to the endpoint. Content of the request should be in the following format: ```{"answer":"<your guess here>"} ```.
 
-Muumipappa likes hockey and was at the market square celebrating Finland's world championship, so you know that the password must be ```loikomorkosisaan```. Unfortunately, Muumipappa is also a huge fan of hacker movies so he might be using a "l337 5p34ky" version as the password. You have to guess the right spelling of the word by trying different mutations of ```loikomorkosisaan```.
+Muumipappa is a huge hockey fan. When Finland won the world championship in 2019, he was one of the first celebrators at the Muumilaakso market square. After Muumimamma told him that his hockey fever is getting out of hand, Muumipappa decided to lock himself inside the Muumitalo. He won't let anyone in unless they know the password, which is also his favourite song. After the market square celebrations Muumipappa has listened to only one song non stop, so you know that the password is ```loikomorkosisaan```. Unfortunately, Muumipappa is also a huge fan of hacker movies so he might be using a "l337 5p34ky" spelling. You have to guess the right spelling of the word by trying different mutations of ```loikomorkosisaan```.
 
 Attempt the following mutations:
 
