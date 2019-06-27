@@ -27,7 +27,7 @@ def ovi():
         if 'lOiK0m0rkos1saan' in dataDict['answer']:
             data = {
             'Muumi'  : 'MuumiPappa',
-            'answer' : 'Wonderful! Come in and listen to these awesome tunes with me!
+            'answer' : 'Wonderful! Come in and listen to these awesome tunes with me!'
             }
             js = json.dumps(data)
             print request.data        
